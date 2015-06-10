@@ -5,5 +5,5 @@ if [[ $(/usr/bin/id -u) -ne 0 ]]; then
     exit
 fi
 chmod +x content.bat
-./content.bat >> index.html
+./content.bat > index.html
 
